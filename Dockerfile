@@ -6,7 +6,7 @@ COPY requirements.txt /requirements.txt
 
 RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
-RUN mkdir /deleterobot
-WORKDIR /deleterobot
+RUN mkdir /MINNAL-T_ADV-V2
+WORKDIR /MINNAL-T_ADV-V2
 COPY start.sh /start.sh
 CMD ["/bin/bash", "/start.sh"]
