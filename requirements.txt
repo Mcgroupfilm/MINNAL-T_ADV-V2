@@ -15,7 +15,7 @@ psutil
 heroku3
 openai==0.25.0
 psutil
-dnspython==2.3.0
+
 
 python-telegram-bot==10.1.0
 Pillow>=4.2.0
